@@ -50,7 +50,6 @@ docker run hello-world
 
 ## sccache
 ```bash
-sudo 
 sudo apt install pkg-config libssl-dev
 cargo install sccache
 echo 'export RUSTC_WRAPPER=$HOME/.cargo/bin/sccache' >> ~/.profile
